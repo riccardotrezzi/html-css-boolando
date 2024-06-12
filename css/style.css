@@ -11,10 +11,131 @@ body{
 }
 
 /*General*/
+header{
+    background-color: rgb(255, 106, 0);
+    min-height: 100px;
+    padding: 15px 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    padding: 20px 0;
+}
+
+footer{
+    background-color: rgb(32, 32, 32);
+    padding: 20px 0;
+}
 
 /*Header*/
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.menu-sx{
+    width: 25%;
+    min-height: 40px;
+    padding: 5px 0;
+}
+
+.menu-sx > a{
+    text-align: left;
+    margin-right: 5px;
+}
+
+.menu-center{
+    width: 50%;
+    min-height: 40px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.menu-center > img{
+    height: 30px;
+    max-width: 50%;
+}
+
+.menu-dx{
+    width: 25%;
+    min-height: 40px;
+    text-align: end;
+    padding: 5px 0;
+}
+
+.menu-dx > i{
+    color: white;
+    margin-left: 5px;
+}
+
+/*Main*/
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 600px;
+    padding: 20px 0;
+}
+
+.clothing-card{
+    width: 30%;
+    height: 600px;
+    border: 2px dashed black;
+}
+
+.pic{
+    min-height: 90%;
+    background-color: blue;
+    border: 2px dashed white;
+}
+
+.description{
+    min-height: 10%;
+    background-color: yellow;
+    border: 2px dashed white;
+}
 
 /*Footer*/
+.flex-container-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;    
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info-footer > h4{
+    color: white;
+}
+
+.info-footer-icon > h4{
+    color: white;
+}
+
+.icon-footer > i{
+    color: white;
+}
 
 /*DEBUG*/
 .debug header{
