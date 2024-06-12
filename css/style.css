@@ -1,0 +1,121 @@
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*General*/
+
+/*Header*/
+
+/*Footer*/
+
+/*DEBUG*/
+.debug header{
+    background-color: rgb(255, 106, 0);
+    min-height: 100px;
+    padding: 15px 0;
+}
+
+.debug .header-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.debug main{
+    padding: 20px 0;
+}
+
+.debug .main-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border: 2px dashed black;
+}
+
+.debug .flex-container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.debug .flex-container-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 600px;
+    padding: 20px 0;
+}
+
+.debug .menu-sx{
+    width: 25%;
+    background-color: white;
+    min-height: 40px;
+    border: 2px dashed black;
+    padding: 5px 0;
+}
+
+.debug a{
+    text-decoration: none;
+    color: white;
+}
+
+.debug .menu-sx > a{
+    text-align: left;
+    margin-right: 5px;
+
+}
+
+.debug .menu-center{
+    width: 50%;
+    background-color: white;
+    min-height: 40px;
+    border: 2px dashed black;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.debug .menu-center > img{
+    height: 30px;
+    max-width: 50%;
+}
+
+.debug .menu-dx{
+    width: 25%;
+    background-color: white;
+    min-height: 40px;
+    border: 2px dashed black;
+    text-align: end;
+    padding: 5px 0;
+}
+
+.debug .menu-dx > i{
+    color: white;
+    margin-left: 5px;
+}
+
+.debug .clothing-card{
+    width: 30%;
+    height: 600px;
+    border: 2px dashed black;
+}
+
+.debug .pic{
+    min-height: 90%;
+    background-color: blue;
+    border: 2px dashed white;
+}
+
+.debug .description{
+    min-height: 10%;
+    background-color: yellow;
+    border: 2px dashed white;
+}
