@@ -32,7 +32,19 @@ body{
     padding: 20px 0;
 }
 
+.debug footer{
+    background-color: rgb(32, 32, 32);
+    padding: 20px 0;
+}
+
 .debug .main-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 127, 127);
+    border: 2px dashed black;
+}
+
+.debug .footer-container{
     width: 80%;
     margin: 0 auto;
     background-color: aquamarine;
@@ -53,6 +65,13 @@ body{
     width: 100%;
     min-height: 600px;
     padding: 20px 0;
+}
+
+.debug .flex-container-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;    
 }
 
 .debug .menu-sx{
@@ -118,4 +137,16 @@ body{
     min-height: 10%;
     background-color: yellow;
     border: 2px dashed white;
+}
+
+.debug .info-footer > h4{
+    color: white;
+}
+
+.debug .info-footer-icon > h4{
+    color: white;
+}
+
+.debug .icon-footer > i{
+    color: white;
 }
