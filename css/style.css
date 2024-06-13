@@ -13,7 +13,7 @@ body{
 /*General*/
 header{
     background-color: rgb(255, 106, 0);
-    min-height: 100px;
+    min-height: 90px;
     padding: 15px 0;
 }
 
@@ -24,6 +24,10 @@ a{
 
 main{
     padding: 20px 0;
+}
+
+img{
+    max-width: 100%;
 }
 
 footer{
@@ -42,7 +46,7 @@ footer{
     flex-direction: row;
     align-items: center;
     width: 100%;
-    padding: 10px;
+    padding: 15px 0;
 }
 
 .menu-sx{
@@ -88,6 +92,7 @@ footer{
 
 .flex-container-main{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 100%;
     min-height: 600px;
@@ -97,20 +102,83 @@ footer{
 .clothing-card{
     width: 30%;
     height: 600px;
-    border: 2px dashed black;
+}
+
+.clothing-card img{
+    display: block;
 }
 
 .pic{
-    min-height: 90%;
-    background-color: blue;
-    border: 2px dashed white;
+    height: 85%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
 }
 
 .description{
-    min-height: 10%;
-    background-color: yellow;
-    border: 2px dashed white;
+    min-height: 15%;
 }
+
+.brand{
+    color: rgb(177, 177, 177);
+}
+
+.line-price{
+    color: lightgray
+}
+
+.price{
+    color: red;
+}
+
+.discount{
+    position: absolute;
+    top: 90%;
+    left: 0;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+    width: max-content;
+}
+
+.eco-product{
+    position: absolute;
+    top: 90%;
+    left: 13%;
+    color: white;
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+    width: max-content;
+}
+
+.eco-product-six{
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    color: white;
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+    width: max-content;
+}
+
+.like-button{
+    position: absolute;
+    top:5%;
+    right: 0;
+    background-color: white;
+    color: black;
+    width:max-content;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.like-button:hover{
+    color: red;
+}
+
 
 /*Footer*/
 .flex-container-footer{
